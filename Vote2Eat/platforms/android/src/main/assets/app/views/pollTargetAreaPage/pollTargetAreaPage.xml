@@ -8,5 +8,6 @@
 			<Label id="nyLabel" row="1" col="1" text="Near Everyone" color="red"/>
 		</GridLayout>
 		<TextField hint="Target Address"/>
+		<Button text="Next" tap="restaurantPreferencesSelection"/>
 	</StackLayout>
 </Page>

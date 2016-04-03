@@ -1,4 +1,5 @@
 var Observable = require("data/observable").Observable;
+var frameModule = require("ui/frame");
 
 exports.loaded = function(args)
 {
@@ -10,4 +11,10 @@ exports.loaded = function(args)
 	});
 	
 	args.object.bindingContext = obj;
+}
+
+exports.restaurantPreferencesSelection = function()
+{
+	var topmost = frameModule.topmost();
+	topmost.navigate("views/pollFilterPage/pollFilterPage");
 }

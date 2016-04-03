@@ -1,6 +1,7 @@
 var app = require( "application" );
 var contacts = require( "nativescript-contacts" );
 var model = require("../../shared/view-models/contacts-view-model");
+var frameModule = require("ui/frame");
 
 
 exports.pageLoaded = function(args) {
@@ -36,5 +37,10 @@ exports.sendMessage = function(args){
         alert(e.toString());
         console.log("Error occurred " + e);
     });  
+}
+
+exports.perimeterSelection = function(){
+	var topmost = frameModule.topmost();
+	topmost.navigate("views/pollTargetAreaPage/pollTargetAreaPage");
 }
 
