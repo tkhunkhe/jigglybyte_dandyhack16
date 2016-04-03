@@ -1,0 +1,8 @@
+ <Page> 
+ 	<StackLayout orientation="vertical">
+ 	<Image src="http://rack.3.mshcdn.com/media/ZgkyMDEzLzA2LzI4L2ExL2hvd3RvbWFrZWN1LjQ4YTcyLmpwZwpwCXRodW1iCTk1MHg1MzQjCmUJanBn/f952fb30/70c/howtomakecustomgooglemap.jpg"/>
+ 	<Label text="This is not a fake map" color="blue" verticalAlignment= "center" style="font-size: 40;"/>
+ 	<Button text="next" tap="next" />
+
+ </StackLayout>
+</Page>

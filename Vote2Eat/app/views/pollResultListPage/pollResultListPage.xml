@@ -1,0 +1,7 @@
+ <Page> 
+ 	<StackLayout orientation="vertical">
+ 	<Image src="https://nolannabiblog.files.wordpress.com/2013/09/deckfailcat.png"/>
+ 	<Button text="go vote" tap="next" />
+
+ </StackLayout>
+</Page>

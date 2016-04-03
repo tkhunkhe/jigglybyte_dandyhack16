@@ -1,6 +1,7 @@
 var app = require( "application" );
 var contacts = require( "nativescript-contacts" );
 var model = require("../../shared/view-models/contacts-view-model");
+var frameModule = require("ui/frame");
 
 
 exports.pageLoaded = function(args) {
@@ -37,4 +38,11 @@ exports.sendMessage = function(args){
         console.log("Error occurred " + e);
     });  
 }
+
+exports.next = function() {
+	
+	frameModule.topmost().navigate("views/pollResultMapPage/pollResultMapPage");
+
+};
+
 

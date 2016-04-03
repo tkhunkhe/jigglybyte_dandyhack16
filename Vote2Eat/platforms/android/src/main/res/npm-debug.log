@@ -1,0 +1,162 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'install',
+1 verbose cli   'nahtivescript-google-maps-sdk',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.20
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/tkhunkhe/jiggly_new/jigglybyte_dandyhack16/jigglybyte_dandyhack16/Vote2Eat/app/package.json
+5 verbose readDependencies loading dependencies from /Users/tkhunkhe/jiggly_new/jigglybyte_dandyhack16/jigglybyte_dandyhack16/Vote2Eat/app/package.json
+6 silly cache add args [ 'install', null ]
+7 verbose cache add spec install
+8 silly cache add args [ 'nahtivescript-google-maps-sdk', null ]
+9 verbose cache add spec nahtivescript-google-maps-sdk
+10 silly cache add parsed spec { raw: 'install',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'install',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: 'latest',
+10 silly cache add   type: 'tag' }
+11 silly addNamed install@latest
+12 verbose addNamed "latest" is being treated as a dist-tag for install
+13 info addNameTag [ 'install', 'latest' ]
+14 silly mapToRegistry name install
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/install
+18 verbose addNameTag registry:https://registry.npmjs.org/install not in flight; fetching
+19 silly cache add parsed spec { raw: 'nahtivescript-google-maps-sdk',
+19 silly cache add   scope: null,
+19 silly cache add   name: 'nahtivescript-google-maps-sdk',
+19 silly cache add   rawSpec: '',
+19 silly cache add   spec: 'latest',
+19 silly cache add   type: 'tag' }
+20 silly addNamed nahtivescript-google-maps-sdk@latest
+21 verbose addNamed "latest" is being treated as a dist-tag for nahtivescript-google-maps-sdk
+22 info addNameTag [ 'nahtivescript-google-maps-sdk', 'latest' ]
+23 silly mapToRegistry name nahtivescript-google-maps-sdk
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/nahtivescript-google-maps-sdk
+27 verbose addNameTag registry:https://registry.npmjs.org/nahtivescript-google-maps-sdk not in flight; fetching
+28 verbose request uri https://registry.npmjs.org/nahtivescript-google-maps-sdk
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 6:47:41 AM
+31 verbose request id c409f0f1237fc02b
+32 http request GET https://registry.npmjs.org/nahtivescript-google-maps-sdk
+33 verbose request uri https://registry.npmjs.org/install
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 6:47:42 AM
+36 http request GET https://registry.npmjs.org/install
+37 http 404 https://registry.npmjs.org/nahtivescript-google-maps-sdk
+38 verbose headers { 'content-type': 'application/json',
+38 verbose headers   'cache-control': 'max-age=0',
+38 verbose headers   'content-length': '2',
+38 verbose headers   'accept-ranges': 'bytes',
+38 verbose headers   date: 'Sun, 03 Apr 2016 10:47:42 GMT',
+38 verbose headers   via: '1.1 varnish',
+38 verbose headers   age: '0',
+38 verbose headers   connection: 'keep-alive',
+38 verbose headers   'x-served-by': 'cache-atl6231-ATL',
+38 verbose headers   'x-cache': 'MISS',
+38 verbose headers   'x-cache-hits': '0',
+38 verbose headers   'x-timer': 'S1459680462.258304,VS0,VE82' }
+39 silly get cb [ 404,
+39 silly get   { 'content-type': 'application/json',
+39 silly get     'cache-control': 'max-age=0',
+39 silly get     'content-length': '2',
+39 silly get     'accept-ranges': 'bytes',
+39 silly get     date: 'Sun, 03 Apr 2016 10:47:42 GMT',
+39 silly get     via: '1.1 varnish',
+39 silly get     age: '0',
+39 silly get     connection: 'keep-alive',
+39 silly get     'x-served-by': 'cache-atl6231-ATL',
+39 silly get     'x-cache': 'MISS',
+39 silly get     'x-cache-hits': '0',
+39 silly get     'x-timer': 'S1459680462.258304,VS0,VE82' } ]
+40 http 200 https://registry.npmjs.org/install
+41 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+41 verbose headers   etag: '"BKO69XMUTO1DJ2FA7RJU9DPFF"',
+41 verbose headers   'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'content-length': '38411',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Sun, 03 Apr 2016 10:47:42 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   age: '165',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-atl6249-ATL',
+41 verbose headers   'x-cache': 'HIT',
+41 verbose headers   'x-cache-hits': '1',
+41 verbose headers   'x-timer': 'S1459680462.325258,VS0,VE0',
+41 verbose headers   vary: 'Accept' }
+42 silly get cb [ 200,
+42 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+42 silly get     etag: '"BKO69XMUTO1DJ2FA7RJU9DPFF"',
+42 silly get     'content-type': 'application/json',
+42 silly get     'cache-control': 'max-age=300',
+42 silly get     'content-length': '38411',
+42 silly get     'accept-ranges': 'bytes',
+42 silly get     date: 'Sun, 03 Apr 2016 10:47:42 GMT',
+42 silly get     via: '1.1 varnish',
+42 silly get     age: '165',
+42 silly get     connection: 'keep-alive',
+42 silly get     'x-served-by': 'cache-atl6249-ATL',
+42 silly get     'x-cache': 'HIT',
+42 silly get     'x-cache-hits': '1',
+42 silly get     'x-timer': 'S1459680462.325258,VS0,VE0',
+42 silly get     vary: 'Accept' } ]
+43 verbose get saving install to /Users/tkhunkhe/.npm/registry.npmjs.org/install/.cache.json
+44 verbose correctMkdir /Users/tkhunkhe/.npm correctMkdir not in flight; initializing
+45 silly addNameTag next cb for install with tag latest
+46 silly addNamed install@0.6.1
+47 verbose addNamed "0.6.1" is a plain semver version for install
+48 silly mapToRegistry name install
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/install
+52 verbose addRemoteTarball https://registry.npmjs.org/install/-/install-0.6.1.tgz not in flight; adding
+53 verbose addRemoteTarball [ 'https://registry.npmjs.org/install/-/install-0.6.1.tgz',
+53 verbose addRemoteTarball   '654725a57c0548221819e4a8f64f60f544167730' ]
+54 info retry fetch attempt 1 at 6:47:43 AM
+55 info attempt registry request try #1 at 6:47:43 AM
+56 http fetch GET https://registry.npmjs.org/install/-/install-0.6.1.tgz
+57 http fetch 200 https://registry.npmjs.org/install/-/install-0.6.1.tgz
+58 silly fetchAndShaCheck shasum 654725a57c0548221819e4a8f64f60f544167730
+59 verbose addTmpTarball /var/folders/gh/gq1_n1p13w944q7ffq1mvy7w0000gn/T/npm-32624-ba6d8877/registry.npmjs.org/install/-/install-0.6.1.tgz not in flight; adding
+60 verbose addTmpTarball already have metadata; skipping unpack for install@0.6.1
+61 verbose correctMkdir /Users/tkhunkhe/.npm correctMkdir not in flight; initializing
+62 silly cache afterAdd install@0.6.1
+63 verbose afterAdd /Users/tkhunkhe/.npm/install/0.6.1/package/package.json not in flight; writing
+64 verbose correctMkdir /Users/tkhunkhe/.npm correctMkdir not in flight; initializing
+65 verbose afterAdd /Users/tkhunkhe/.npm/install/0.6.1/package/package.json written
+66 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/nahtivescript-google-maps-sdk
+66 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+66 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+66 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+66 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:199:22)
+66 verbose stack     at Request.emit (events.js:110:17)
+66 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+66 verbose stack     at Request.emit (events.js:129:20)
+66 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:963:12)
+66 verbose stack     at IncomingMessage.emit (events.js:129:20)
+66 verbose stack     at _stream_readable.js:908:16
+67 verbose statusCode 404
+68 verbose pkgid nahtivescript-google-maps-sdk
+69 verbose cwd /Users/tkhunkhe/jiggly_new/jigglybyte_dandyhack16/jigglybyte_dandyhack16/Vote2Eat/app/App_Resources/Android
+70 error Darwin 15.0.0
+71 error argv "node" "/usr/local/bin/npm" "i" "install" "nahtivescript-google-maps-sdk" "--save"
+72 error node v0.12.7
+73 error npm  v2.14.20
+74 error code E404
+75 error 404 Registry returned 404 for GET on https://registry.npmjs.org/nahtivescript-google-maps-sdk
+75 error 404
+75 error 404 'nahtivescript-google-maps-sdk' is not in the npm registry.
+75 error 404 You should bug the author to publish it (or use the name yourself!)
+75 error 404 It was specified as a dependency of 'tns-template-hello-world'
+75 error 404
+75 error 404 Note that you can also install from a
+75 error 404 tarball, folder, http url, or git url.
+76 verbose exit [ 1, true ]
