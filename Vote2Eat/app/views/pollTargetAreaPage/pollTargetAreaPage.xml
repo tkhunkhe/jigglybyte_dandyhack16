@@ -1,0 +1,12 @@
+<Page loaded="loaded">
+	<StackLayout horizontalAlignment="center" verticalAlignment="center">
+		<GridLayout rows="auto, auto" columns="*, 2*" horizontalAlignment="center" verticalAlignment="center">
+			<Switch id="nySwitch" row="0" col="0" checked="{{ selected === 'nySwitch'}}" tap="{{ tap }}"/>
+			<Label id="nyLabel" row="0" col="1" text="Near You" color="blue"/>
+			
+			<Switch id="neSwitch" row="1" col="0" checked="{{ selected === 'neSwitch'}}" tap="{{ tap }}"/>
+			<Label id="nyLabel" row="1" col="1" text="Near Everyone" color="red"/>
+		</GridLayout>
+		<TextField hint="Target Address"/>
+	</StackLayout>
+</Page>
