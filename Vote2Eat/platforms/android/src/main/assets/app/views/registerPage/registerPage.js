@@ -11,7 +11,7 @@ exports.loaded = function(args) {
 
 function completeRegistration() {
           
-    frameModule.topmost().navigate("views/login/login");
+    frameModule.topmost().navigate("views/logInPage/logInPage");
 	
     // user.register()
         // .then(function() {
