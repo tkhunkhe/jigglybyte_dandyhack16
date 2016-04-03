@@ -1,5 +1,5 @@
 
-<Page >
+<Page>
 	<StackLayout orientation="vertical" horizontalAlignment="center" verticalAlignment="center" minWidth="200">
 		<Label text="Pick the Date" />
 		<DatePicker cssClass="datePickerControl" day="{{ day }}" month="{{ month }}" year="{{ year }}" />
