@@ -39,10 +39,9 @@ exports.sendMessage = function(args){
     });  
 }
 
-exports.next = function() {
-	
-	frameModule.topmost().navigate("views/pollResultMapPage/pollResultMapPage");
 
-};
-
+exports.perimeterSelection = function(){
+	var topmost = frameModule.topmost();
+	topmost.navigate("views/pollTargetAreaPage/pollTargetAreaPage");
+}
 
