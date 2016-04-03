@@ -1,0 +1,11 @@
+<Page loaded="pageLoaded">
+  <StackLayout>
+  		<StackLayout orientation="horizontal">
+  			<Button text="Choose a contact" tap="getContact" class="btn" />
+  			<Button text="Add contact" tap="addContact" class="btn" />
+  		</StackLayout>
+
+  		<Label text="{{ contact_name }}" visibility="{{ contact_name ? 'visible' : 'collapsed' }}" />
+  		<Button text="{{ 'Send text to: ' + contact_name }}" class="btn" tap="sendMessage" visibility="{{ contact_name ? 'visible' : 'collapsed' }}"/>
+  </StackLayout>
+</Page>
