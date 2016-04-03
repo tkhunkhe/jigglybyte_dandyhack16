@@ -12,6 +12,6 @@ exports.loaded = function(args) {
 
 exports.next = function() {
 	
-	frameModule.topmost().navigate("views/pollTargetAreaPage/pollTargetAreaPage");
+	frameModule.topmost().navigate("views/pollAddFriendsPage/pollAddFriendsPage");
 
 };
