@@ -1,1 +1,1 @@
-console.log("poll select date page");
+var datePickerModule = require("ui/date-picker");
