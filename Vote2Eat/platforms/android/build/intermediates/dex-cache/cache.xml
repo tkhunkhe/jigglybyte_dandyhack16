@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Emma\Documents\GitHub\jigglybyte_dandyhack16\Vote2Eat\platforms\android\libs\nativescript.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="72b585c3baffa7cb9fbecc8dd37cd89a127f17f5">
-        <dex dex="C:\Users\Emma\Documents\GitHub\jigglybyte_dandyhack16\Vote2Eat\platforms\android\build\intermediates\pre-dexed\debug\nativescript_fa42316b49f35527823860cbf282684908383e96.jar" />
-    </item>
-    <item
-        jar="C:\Users\Emma\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jar="C:\Users\Gaby\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="C:\Users\Emma\Documents\GitHub\jigglybyte_dandyhack16\Vote2Eat\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_f29aa5cfe6567e3c85d7934c6e457a16afcf9d64.jar" />
+        <dex dex="C:\Users\Gaby\Documents\Projects\jigglybyte_dandyhack16\Vote2Eat\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_b7240c0bc1e2c6d03f3bb14358aa690cc5711db0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Gaby\Documents\Projects\jigglybyte_dandyhack16\Vote2Eat\platforms\android\libs\nativescript.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="72b585c3baffa7cb9fbecc8dd37cd89a127f17f5">
+        <dex dex="C:\Users\Gaby\Documents\Projects\jigglybyte_dandyhack16\Vote2Eat\platforms\android\build\intermediates\pre-dexed\debug\nativescript_b94a31d7449a03ca51f190287a254033b1c86b5b.jar" />
     </item>
 
 </items>

@@ -1,7 +1,7 @@
 var UserViewModel = require("../../shared/view-models/user-view-model");
 var user = new UserViewModel({
 	email: "definesugar@gmail.com",
-	password: "liverspot1"
+	password: "helloworld"
 });
 var frameModule = require("ui/frame");
 var viewModule = require("ui/core/view");

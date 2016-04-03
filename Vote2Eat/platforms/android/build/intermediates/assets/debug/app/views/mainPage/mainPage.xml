@@ -1,0 +1,8 @@
+<Page>
+	<GridLayout rows="*, *, *, *" columns="*, *, *, *" horizontalAlignment="center" verticalAlignment="center">
+		<Button text="Friends" row="1" col="1" backgroundColor="yellow" tap="getFriends"/>
+		<Button text="New Poll" row="1" col="2" backgroundColor="green" tap="makePoll"/>
+		<Button text="View Polls" row="2" col="1" backgroundColor="cyan" tap="viewPoll"/>
+		<Button text="Settings" row="2" col="2" baclgroundColor="magenta" tap="goToSettings"/>
+	</GridLayout>
+</Page>

@@ -1,0 +1,9 @@
+Page {
+	background-color: yellow;
+	font-size: 17;
+}
+
+Button {
+	margin = 10;
+	padding = 10;
+}
