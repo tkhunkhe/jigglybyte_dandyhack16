@@ -21,5 +21,5 @@ exports.viewPoll = function()
 exports.goToSettings = function()
 {
 	var topmost = frameModule.topmost();
-	topmost.navigate("views/settings/settings");
+	topmost.navigate("views/logInPage/logInPage");
 };
