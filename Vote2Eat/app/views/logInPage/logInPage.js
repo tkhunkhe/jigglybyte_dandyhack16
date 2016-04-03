@@ -14,18 +14,22 @@ exports.loaded = function(args) {
 };
 
 exports.signIn = function() {
-    user.login()
-        .catch(function(error) {
-            console.log(error);
-            dialogsModule.alert({
-                message: "Unfortunately we could not find your account.",
-                okButtonText: "OK"
-            });
-            return Promise.reject();
-        })
-        .then(function() {
-            frameModule.topmost().navigate("views/list/list");
-        });
+	
+	frameModule.topmost().navigate("views/list/list");
+	
+	
+    // user.login()
+        // .catch(function(error) {
+            // console.log(error);
+            // dialogsModule.alert({
+                // message: "Unfortunately we could not find your account.",
+                // okButtonText: "OK"
+            // });
+            // return Promise.reject();
+        // })
+        // .then(function() {
+            // frameModule.topmost().navigate("views/list/list");
+        // });
 };
 
 exports.register = function() {
