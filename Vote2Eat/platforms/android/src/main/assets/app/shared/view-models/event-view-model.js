@@ -9,9 +9,11 @@ function foodEvent(info) {
     var viewModel = new Observable({
         eventName: info.eventName || "",
         date: info.date || ""
+
+
     });
 
-	
+
     // return fetchModule.fetch(config.apiUrl + "oauth/token";
     
 	

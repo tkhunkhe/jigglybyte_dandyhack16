@@ -1,8 +1,16 @@
-<Page loaded="loaded">
-    <StackLayout orientation="vertical">
-	
-       
-		<Button text="Create Event"  />
 
-    </StackLayout>
+<Page loaded="loaded">
+	<StackLayout orientation="vertical" horizontalAlignment="center" verticalAlignment="center" minWidth="200">
+		<Label text="Pick the Date" />
+		<DatePicker day="{{ day }}" month="{{ month }}" year="{{ year }}" />
+		<Label text="From" />
+		<TimePicker  hour="{{ fromhour }}" minute="{{ fromminute }}" />
+
+		<Label text="To" />
+		<TimePicker  hour="{{ tohour }}" minute="{{ tominute }}" />
+
+		<Button text="next" tap="next" />
+
+	</StackLayout>
+
 </Page>
