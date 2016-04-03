@@ -1,0 +1,8 @@
+<Page loaded="loaded">
+    <StackLayout orientation="vertical">
+	
+       
+		<Button text="Create Event"  />
+
+    </StackLayout>
+</Page>

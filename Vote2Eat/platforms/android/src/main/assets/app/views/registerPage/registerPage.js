@@ -10,21 +10,24 @@ exports.loaded = function(args) {
 };
 
 function completeRegistration() {
-    user.register()
-        .then(function() {
-            dialogsModule
-                .alert("Your account was successfully created.")
-                .then(function() {
-                    frameModule.topmost().navigate("views/login/login");
-                });
-        }).catch(function(error) {
-            console.log(error);
-            dialogsModule
-                .alert({
-                    message: "Unfortunately we were unable to create your account.",
-                    okButtonText: "OK"
-                });
-        });
+          
+    frameModule.topmost().navigate("views/logInPage/logInPage");
+	
+    // user.register()
+        // .then(function() {
+            // dialogsModule
+                // .alert("Your account was successfully created.")
+                // .then(function() {
+                    // frameModule.topmost().navigate("views/login/login");
+                // });
+        // }).catch(function(error) {
+            // console.log(error);
+            // dialogsModule
+                // .alert({
+                    // message: "Unfortunately we were unable to create your account.",
+                    // okButtonText: "OK"
+                // });
+        // });
 }
 
 exports.register = function() {

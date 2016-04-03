@@ -1,0 +1,9 @@
+<Page loaded="loaded">
+    <StackLayout orientation="vertical">
+	
+        <TextField id="eventName" text="{{ eventName }}" hint="Event Name" autocorrect="true" autocapitalizationType="words" />
+		
+		<Button text="Create Event" tap="createEvent" />
+
+    </StackLayout>
+</Page>
