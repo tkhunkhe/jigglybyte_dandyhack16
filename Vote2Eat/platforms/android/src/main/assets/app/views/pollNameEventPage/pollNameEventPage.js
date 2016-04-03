@@ -10,9 +10,8 @@ exports.loaded = function(args) {
 };
 
 exports.createEvent = function() {
-	console.log("before the navigation");
+	
 	frameModule.topmost().navigate("views/pollSelectDatePage/pollSelectDatePage");
-	console.log("after the navigation");
 	
 	
     // user.login()
