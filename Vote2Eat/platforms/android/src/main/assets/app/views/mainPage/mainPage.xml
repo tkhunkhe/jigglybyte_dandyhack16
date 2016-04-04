@@ -1,6 +1,7 @@
 <Page>
 	<StackLayout orientation="vertical">
-		<Image src="http://www.carnsmedia.com/wp-content/uploads/2015/01/Restaurant_Logo-770x384.jpg"/> 
+		<!-- <Image src="http://www.carnsmedia.com/wp-content/uploads/2015/01/Restaurant_Logo-770x384.jpg"/>  -->
+		<Image src="icon.jpg"/> 
 		<GridLayout rows="100, 100" columns="100, 100" horizontalAlignment="center" verticalAlignment="center">
 
 		<Button text="Friends" row="0" col="0" backgroundColor="yellow" tap="getFriends"/>
